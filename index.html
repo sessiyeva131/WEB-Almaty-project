@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip to Almaty</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnMj8Xc5_jA0tqVHCoFHCk-2sHt4imItA&callback=initMap&libraries=&v=weekly"
+      defer></script>
+
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+
+</head>
+<body>
+    <div class="container1">
+        <nav class="navbar" data-spy="affix" >
+            <div class="hamburger-menu">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div> 
+            </div>
+        
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#main" class="nav_link">Main</a></li>
+                <li class="nav_item"><a href="#section1" class="nav_link">About</a></li>
+                <li class="nav_item"><a href="#section2" class="nav_link">Map</a></li>
+                <li class="nav_item"><a href="#infos" class="nav_link">Places</a></li>
+                <li class="nav_item"><a href="#section4" class="nav_link">Things to Do</a></li>
+                <li class="nav_item"><a href="#section5" class="nav_link">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="banner" id="main">
+            <video autoplay loop muted>
+                <source src="almaty4.mp4" type="video/mp4">
+            </video>
+            <div class="main">
+                <h2 class="t1">welcome to</h2>
+                <h1 class="t2">ALMATY</h1>
+            </div>
+        </div>
+    </div>
+
+    <section class="section1" id="section1">
+        <div data-aos="zoom-in" class="circle circle1">
+            <img src="https://rus.azattyq-ruhy.kz/cache/imagine/main_page_full/uploads/news/2020/05/17/5ec0f209dd858233169489.jpg" alt="photo" width="400px" height="300px">
+        </div>
+        <div data-aos="zoom-in" class="circle circle2">
+            <img src="https://kazakh-tv.kz/upload/anounces/big_b5b76336978cd325fa552f889dd766b0.jpg" alt="" width="200px" height="200px">
+        </div>
+        <div data-aos="zoom-in-up" class="info">
+            <h1 style="color: #31708E;">ALMATY</h1>
+            <p style="color: white;" class="Atext">
+                Almaty is called majestically ''South capital'' of the republic of Kazakhstan. Spread out of the foothills of Trans-Ili Ala-Tau , the city attracts tourists with extraordinary beauty of scenery , mild climate, pristine purity of nature and historical heritage.
+                The diversity of flora and fauna, blossoming orchards, as well as the unique nature reserves brings a huge contribution to the formation and development of tourism in Almaty. No wonder the city is called the pearl Semirechye. Having been in Almaty, you will not just dive into the rich cultural life of the city, but also you will familiarize with important historical monuments and research centers of the Southern capital.
+                <span class="moreText">
+                Kazakhstan Travel Agency offer you the varied holiday and will organize an unforgettable city tour and tourism in the mountains.
+                Lush green parks of the city, historical monuments and cultural centers, art galleries and architectural ensembles - this is not a complete list of attractions that attract thousands of tourists and visitors.
+                Take a shimmering cityscape and blend it with the snow capped peaks of the Zailiyskiy Alatau range and you will have the dazzling city of Almaty. The largest city in Kazakhstan, Almaty is a mix of modernity and natural beauty. 
+            </span>
+            </p>
+            <!-- <button class="readmore">Read More</button> -->
+        </div>
+    </section>
+
+    <div class="banner2">
+        <img class="images" src="https://papers.co/wallpaper/papers.co-np32-mountain-wood-night-dark-river-nature-blue-28-wallpaper.jpg" alt="">
+    </div>  
+
+    <div data-aos="fade-down" class="destinations" id="places">
+        <h1>THE MOST POPULAR PLACE LOCATIONS</h1>
+    </div>
+    
+    <section class="section2" id="section2">
+        <div  data-aos="zoom-in" class="places">
+            <ul>
+                <li>Big Almaty Lake</li>
+                <li>Kolsai Lake</li>
+                <li>Butakovka</li>
+                <li>Furmanov Peak</li>
+                <li>Medeo</li>
+                <li>Shymbulak</li>
+                <li>Kok-Tobe</li>
+                <li>Ile-Alatau National Park</li>
+            </ul>
+
+            <button class="btn1">Read more...</button>
+        </div>
+       <div data-aos="zoom-in" id="map"></div>
+
+    </section>
+
+    <div class="banner2">
+        <img class="images" src="https://www.desktopbackground.org/download/3840x2160/2010/04/13/1447_40-mountain-hd-wallpapers_3840x2563_h.jpg" alt="">
+    </div>
+
+    <section class="infos" id="infos">
+        <div class="max-width">
+           <h2 class="title">More Almaty Places Information</h2>
+           <div class="carousel owl-carousel">
+               <div class="card">
+                   <div class="box">
+                       <img src="https://www.dookinternational.com/blog/wp-content/uploads/2015/05/Big-Almaty-Lake.jpg" alt="">
+                       <div class="text">Big Almaty Lake</div>
+                       <p>Big Almaty Lake (Bol'shoye Almatinskoye Ozero) is natural alpine reservoir. It is located in the Trans-Ili Alatau mountains, 15 km south from the center of Almaty in Kazakhstan. The lake is 2511 meters above sea level</p>
+                   </div>
+               </div>
+
+                <div class="card">
+                    <div class="box">
+                        <img src="https://travelhub.kz/upload/iblock/f3d/f3d904d7715928e1bbd7d5ee87633b6a.jpg" alt="">
+                        <div class="text">Kolsay Lake</div>
+                        <p>Kolsay Lakes National Park is located on the north slope of the Tian Shan Mountains, southeast Kazakhstan (10 km from the border with Kyrgyzstan). Often referred to as "Pearls of Tien Shan", the park's main feature are the Kolsay Lakes located between the Raiymbek District and Talgar District of Almaty Region</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <img src="https://img.itinari.com/page/content/original/d439e23d-0956-49d4-92a9-231e750b520f-14933867830_a5e872755d_b.jpg?ch=DPR&dpr=1&w=994&s=8e4369b4b2c2860bff6050eff06308be" alt="">
+                        <div class="text">Shymbulak</div>
+                        <p>Shymbulak, also known as Chimbulak is a ski resort near Almaty. It is the largest ski resort in Central Asia. It is located in the upper part of the Medeu Valley in the Zaiilisky Alatau mountain range, at an elevation of 2,200 metres above sea level.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <img src="https://i.pinimg.com/originals/3d/42/0f/3d420fddf75348fc967f075461e11439.jpg" alt="">
+                        <div class="text">Charyn Canyon</div>
+                        <p>Charyn Canyon is a canyon on the Sharyn River in Kazakhstan. The canyon is roughly 90 kilometres in length. It is part of the Charyn National Park, and is located within the territory of the Uygur District, Raiymbek District and Enbekshikazakh District.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <img src="https://www.journalofnomads.com/wp-content/uploads/2018/11/Screenshot-12-1024x643.png" alt="">
+                        <div class="text">Butakovka Waterfall</div>
+                        <p>Butakovka gorge has many waterfalls but lower waterfall is the most known one for the tourists. The waterfall is one of the most beautiful places of Zailiysky Alatau. It is located in Butakovka gorge and is one of the most famous and visited sightseeing places near Almaty. </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <img src="https://www.journalofnomads.com/wp-content/uploads/2018/11/Hiking-in-Almaty-Kok-Zhailau-1024x768.jpg" alt="">
+                        <div class="text">Furmanov Peak</div>
+                        <p>It’s a 14 km walk to Peak Furmanov and back along some wonderful alpine scenery. Very lovely and sweet, far away from the maddening crowds. Take 4 hours to get to the top and 3 more to get back. Lowest point is 1.609 m, highest point is 3.029 m.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <img src="https://previews.123rf.com/images/venakr/venakr1708/venakr170800199/84106306-famous-skating-rink-medeo-in-almaty-kazakhstan.jpg" alt="">
+                        <div class="text">Medeo</div>
+                        <p>The Medeu, is an outdoor speed skating and bandy rink. It is located in a mountain valley on the south-eastern outskirts of Almaty, Kazakhstan. Medeu sits 1,691 metres above sea level.</p>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </section>
+
+    <div class="head">
+        <div data-aos="zoom-in-right" class="quote">
+            <h1>Augustine of Hippo</h1>
+            <div class="q">
+                <h1 class="hh">“</h1>
+                <h3>The world is a book and those who do not travel read only one page.</h3>
+                <h1 class="hh">”</h1>
+            </div>
+        </div>
+    </div>
+
+    <section class="section3" id="section3">
+        <div data-aos="fade-up" class="part1">
+            <img src="https://pics.clipartpng.com/Airplane_PNG_Clipart-421.png" width="300px" height="150px" alt="">
+            <h3>If you are ready for spontaneous travel and are interested in this city, then buy a ticket to this city now!</h3>
+            <a href="https://www.aviasales.kz/cities/almaty-ala">Buy Now</a>
+        </div>
+        <div data-aos="fade-down" class="part2">
+            <h1>TOUR GUIDE</h1>
+            <h3>Buy a tour with favorable prices to have a useful and fun time with our agencies</h3>
+            <a href="https://www.tripadvisor.com/">Start Planning</a>
+        </div>
+    </section>
+
+    <section class="section4" id="section4">
+        <div class="container">
+            <h1>Best Things to Do in Almaty</h1>
+            <div class="accordion">
+                <div class="accordion-item" id="q1">
+                    <a class="accordion-link" href="#q1">
+                        Stroll through Panfilov Park
+                        <ion-icon name="heart-circle-outline" class="ion-md-add"></ion-icon>
+                        <ion-icon name="remove-outline" class="ion-md-remove"></ion-icon>
+                    </a>
+                    <div class="answer">
+                       <p>Surrounding the Ascension Cathedral is a charming urban park, one of the most beautiful in the city of Almaty. Here, you can find benches placed along wide walkways filled with food vendors, families, and gossiping teenagers. As the park is so centrally located, it’s a great place to grab an ice cream and hang out under the shade of the trees on a hot summer’s day. Or, just use it as a place to immerse yourself in Almaty’s buzzing local energy.</p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="q2">
+                    <a class="accordion-link" href="#q2">
+                        Learn about Kazakh history and art at a local museum
+                        <ion-icon name="heart-circle-outline" class="ion-md-add"></ion-icon>
+                        <ion-icon name="remove-outline" class="ion-md-remove"></ion-icon>
+                    </a>
+                    <div class="answer">
+                       <p>There are a handful of fantastic museums on a range of topics located in Almaty’s city center, not far from Panfilov Park. Especially in the summer when the heat can get quite unbearable, exploring Almaty’s museums can be a great way to escape the heat and learn more about Kazakh history and traditions.</p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="q3">
+                    <a class="accordion-link" href="#q3">
+                        Sample local Kazakh foods
+                        <ion-icon name="heart-circle-outline" class="ion-md-add"></ion-icon>
+                        <ion-icon name="remove-outline" class="ion-md-remove"></ion-icon>
+                    </a>
+                    <div class="answer">
+                        <p>You can try some of the best local and regional foods in Almaty in several restaurants. For a beautiful atmosphere and a sit-down environment, head to Alasha or Kishlak. For cheaper traditional eats, try Navat or Kaganat. (None of them have websites, classic, so just type them into your 2GIS app or Google Maps).</p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="q4">
+                    <a class="accordion-link" href="#q4">
+                        Go ice skating at Medeu
+                        <ion-icon name="heart-circle-outline" class="ion-md-add"></ion-icon>
+                        <ion-icon name="remove-outline" class="ion-md-remove"></ion-icon>
+                    </a>
+                    <div class="answer">
+                       <p>During the colder months of the year, one of the most fun things to do in Almaty is to go ice skating at the city’s outdoor rink, called Medeu. Located in the mountains (1,600+ meters above sea level), it’s a bit outside of the city center.</p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="q5">
+                    <a class="accordion-link" href="#q5">
+                        Take a day trip to Big Almaty Lake
+                        <ion-icon name="heart-circle-outline" class="ion-md-add"></ion-icon>
+                        <ion-icon name="remove-outline" class="ion-md-remove"></ion-icon>
+                    </a>
+                    <div class="answer">
+                        <p>A prime picnicking and hangout spot for locals, Big Almaty Lake (known simply as “Bao” to locals) is a gorgeous retreat high up in the Tien Shan mountains. Used as a drinking water reservoir for much of Almaty’s population, you can’t actually swim here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section5" id="section5"> 
+        <div id="section5" class="gallery" data-aos="fade-right">
+            <h1>GALLERY</h1>
+        </div>
+            <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="sliderText">
+                            <img src="https://www.dookinternational.com/blog/wp-content/uploads/2015/05/Big-Almaty-Lake.jpg" width="300px" height="200px">
+                        </div>
+                        <div class="content">
+                            <p>BIG ALMATY LAKE</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="sliderText">
+                            <img src="https://travelhub.kz/upload/iblock/f3d/f3d904d7715928e1bbd7d5ee87633b6a.jpg" width="300px" height="200px">
+                        </div>
+                        <div class="content">
+                            <p>KOLSAI LAKE</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="sliderText">
+                            <img src="https://www.journalofnomads.com/wp-content/uploads/2017/10/Charyn-Canyon-Featured-photo.jpg" width="300px" height="200px">
+                        </div>
+                        <div class="content">
+                            <p>CHARYN CANYON</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="sliderText">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Big_Almaty_Lake_%28Bolshaya_Almatinka%29_in_June.jpg" width="300px" height="200px">
+                        </div>
+                        <div class="content">
+                            <p>ILE-ALATAU NATIONAL PARK</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="sliderText">
+                            <img src="https://www.guides.kz/wp-content/uploads/2019/09/Medeo2.jpg" width="300px" height="200px">
+                        </div>
+                        <div class="content">
+                            <p>MEDEO</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="sliderText">
+                            <img src="https://ticketon.kz/files/media/shymbulak2029.jpg" width="300px" height="200px">
+                        </div>
+                        <div class="content">
+                            <p>SHYMBULAK</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="sliderText">
+                            <img src="https://previews.123rf.com/images/byheaven/byheaven1406/byheaven140600018/29231971-butakovka-waterfall-in-the-mountain-valley-kazakhstan-central-asia.jpg" width="300px" height="200px">
+                        </div>
+                        <div class="content">
+                            <p>BUTAKOVKA WATERFALL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>  
+        </section>
+
+        <footer>
+            <div class="art">
+                <div class="content">
+                    <section>
+                        <header>Stay Updated</header>
+                        <h4>Subscribe our Newsletter to get our update News</h4>
+                        <form action="">
+                            <input type="email" placeholder="Your Email here">
+                            <input class="subs" type="submit" value="Subscribe Now">
+                        </form>
+                        <div class="social">
+                            <i class="fab fa-youtube"></i>
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                    </section>
+                </div>
+                <div class="notice">
+                    Copyright Protected &copy;
+                    <strong>Tommy</strong>
+                </div>
+            </div>
+        </footer>
+
+        <div class="alert_wrapper">
+            <div class="alert_backdrop"></div>
+            <div class="alert_inner">
+                <div class="alert_item alert_success">
+                    <div class="icon data_icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="data">
+                        <p class="title"><span>Success:</span>
+                            User action success
+                        </p>
+                        <p class="sub">You have successfully subscribed!</p>
+                    </div>
+                    <div class="icon close">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
